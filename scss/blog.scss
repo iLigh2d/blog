@@ -1,0 +1,118 @@
+.header{
+    transition: opacity .2s ease-in-out;
+}
+
+.hidden{
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .5s ease-in-out;
+    & div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        
+    }
+
+    &__purple{
+        background: linear-gradient(45deg, #7a1b83 0%, #ff00ee 155%);
+    }
+    &__yellow{
+        background: linear-gradient(45deg, #ffbb00 0%, #fff130 155%);
+    }
+    &__red{
+        background: linear-gradient(45deg, #450000 0%, #711515 155%);
+    }
+    &__blue{
+        background: linear-gradient(45deg, #0062ff 0%, #91deff 155%);
+    }
+}
+
+.sidebar__title{
+    font-size: 40px;
+    margin-top: 350px;
+    font-weight: bold;
+}
+.sidebar__text{
+   margin-bottom: 350px; 
+   font-size: 18px;
+}
+
+.main-slide {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform .5s ease-in-out;
+    & div{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+    }
+}
+.purple {
+    background: url(/img/slider/04.jpg);
+}
+.yellow {
+    background: url(/img/slider/03.jpg);
+}
+.red {
+    background: url(/img/slider/02.jpg);
+    
+}
+.blue {
+    background: url(/img/slider/01.jpg);
+}
+.controls {
+    & button{
+        position: absolute;
+        left: 35%;
+        top: 50%;
+        z-index: 100;
+    }
+}
+
+button{
+    background: #fff;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    &:hover{
+        color: #222;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.down-button {
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.up-button {
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

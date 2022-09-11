@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="css/aimGame.css" />
+            <link rel="stylesheet" href="css/style.css">
+            <title>Document</title>
+        </head>
+        <body>
+        <div class="wrapper">
+          <header class="header hidden">
+            <div class="header__content">
+              <div class="header__menu menu">
+                <div class="menu__icon icon-menu">
+                  <span></span>
+                </div>
+                <nav class="header__body">
+                  <ul class="menu__list">
+                    <li><a href="index.html" class="menu__link">Home</a></li>
+                    <li><a href="works.html" class="menu__link">Works</a></li>
+                    <li><a href="blog.html" class="menu__link">Blog</a></li>
+                    <li><a href="game.html" class="menu__link">Game</a></li>
+                    <li><a href="aimGame.html" data-goto=".footer" class="menu__link active-link">Aim Game</a></li>
+                </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <main class="main">
+            <div class="aimGame">
+                <div class="screen">
+                    <h1 class="screen__title">Aim Training</h1>
+                    <a id="start" href="#" class="start">Начать игру</a>
+                </div>
+              
+                <div class="screen">
+                <h1 class="screen__title">Выберите время</h1>
+                <ul id="time-list" class="time-list">
+                    <li>
+                    <button class="time-btn" data-time='5'>
+                        10 сек
+                    </button>
+                    </li>
+                    <li>
+                    <button class="time-btn" data-time='20'>
+                        20 сек
+                    </button>
+                    </li>
+                    <li>
+                    <button class="time-btn" data-time='30'>
+                        30 сек
+                    </button>
+                    </li>
+                    <li>
+                    <button class="time-btn" data-time='40'>
+                        40 сек
+                    </button>
+                    </li>
+                </ul>
+                </div>
+            
+                <div class="screen" id="last-screen">
+                <h3 class="timer">Осталось <span id="time">00:00</span></h3>
+                <div class="board" id="board"></div>
+                </div>
+            </div>
+          </main>
+          <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer_icons">
+                   <a href="#"><img src="img/footer/fb.svg" alt="" class="footer__img"></a>
+                   <a href="#"><img src="img/footer/insta.svg" alt="" class="footer__img"></a>
+                   <a href="#"><img src="img/footer/tw.svg" alt="" class="footer__img"></a>
+                   <a href="#"><img src="img/footer/linkedin.svg" alt="" class="footer__img"></a>
+                </div>
+                <div class="footer__copyright">
+                    Copyright ©2020 All rights reserved 
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script></script>
+      </body>
+      <script src="js/aimGame.js"></script>
+    </html>
+  </body>
+</html>
