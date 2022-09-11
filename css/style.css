@@ -193,19 +193,19 @@ h6 {
 }
 
 .purple {
-  background: url(/img/slider/04.jpg);
+  background: url(../img/slider/04.jpg);
 }
 
 .yellow {
-  background: url(/img/slider/03.jpg);
+  background: url(../img/slider/03.jpg);
 }
 
 .red {
-  background: url(/img/slider/02.jpg);
+  background: url(../img/slider/02.jpg);
 }
 
 .blue {
-  background: url(/img/slider/01.jpg);
+  background: url(../img/slider/01.jpg);
 }
 
 .controls button {
@@ -314,35 +314,35 @@ button:focus {
 }
 
 .slide-1 {
-  background: url(/img/works/01.jpg);
+  background: url(../img/works/01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slide-2 {
-  background: url(/img/works/02.jpg);
+  background: url(../img/works/02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slide-3 {
-  background: url(/img/works/03.jpg);
+  background: url(../img/works/03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slide-4 {
-  background: url(/img/works/04.jpg);
+  background: url(../img/works/04.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slide-5 {
-  background: url(/img/works/05.jpg);
+  background: url(../img/works/05.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

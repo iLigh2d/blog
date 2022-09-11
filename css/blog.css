@@ -89,19 +89,19 @@
 }
 
 .purple {
-  background: url(/img/slider/04.jpg);
+  background: url(../img/slider/04.jpg);
 }
 
 .yellow {
-  background: url(/img/slider/03.jpg);
+  background: url(../img/slider/03.jpg);
 }
 
 .red {
-  background: url(/img/slider/02.jpg);
+  background: url(../img/slider/02.jpg);
 }
 
 .blue {
-  background: url(/img/slider/01.jpg);
+  background: url(../img/slider/01.jpg);
 }
 
 .controls button {
